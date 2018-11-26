@@ -1,0 +1,166 @@
+@import "~./zul/less/_header.less";
+
+// html,body {
+// 	margin: 0;
+// 	padding: 0;
+// 	height: 100%;
+// 	width: 100%;
+// 	overflow: hidden;
+// }
+
+.z-html p{
+	margin:0px;
+}
+
+//<%-- Tablet --%>
+.tablet-scrolling {
+	-webkit-overflow-scrolling: touch;
+}
+
+//<%-- vbox fix for firefox and ie --%>
+table.z-vbox > tbody > tr > td > table {
+	width: 100%;	
+}
+
+//<%-- workflow activity --%>
+.workflow-activity-form {
+}
+.workflow-panel-table {
+}
+
+//<%-- payment form --%>
+.payment-form-content {
+}
+
+//<%-- custom --%>
+.z-a {
+	text-decoration: none;
+	color: @blueLighter;
+	font-weight: @fontWeightSemiBold;
+}
+
+.z-a:hover {
+	text-decoration: underline;
+}
+
+.z-listitem:hover>.menu-search-list-toolbar-cell>.z-listcell-content .z-toolbarbutton-content {
+	color: #fff;
+}
+
+.z-toolbarbutton[disabled], .z-toolbarbutton[disabled]:hover {
+	background: none;
+}
+
+.grid-layout .z-row:hover>.z-row-inner>.z-row-content {
+	color: @baseTextColor;
+}
+
+.find-window .z-row:hover>.z-row-inner, 
+.find-window .z-row:hover>.z-cell,
+.find-window .z-listitem:hover>.z-listcell {
+	background: none;
+}
+
+.about-credit-panel .z-row:hover>.z-row-inner, 
+.about-credit-panel .z-row:hover>.z-cell {
+	background: none;
+}
+
+.performance-panel .z-row:hover>.z-row-inner, 
+.performance-panel .z-row:hover>.z-cell {
+	background: none;
+}
+
+:not(.grid-inactive-row):not(.highlight).adtab-grid.z-row:hover>.z-row-inner, 
+:not(.grid-inactive-row):not(.highlight).adtab-grid.z-row:hover>.z-cell {
+	color: @white;
+}
+
+.btn-ok {
+	background-color: #59A755 !important;
+	border: 1px solid #59A755;
+}
+
+.btn-ok:hover, .btn-ok:active {
+	background-color: #59A755 !important;
+	border: 1px solid #59A755;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn-cancel {
+	background-color: #AE312E !important;
+	border: 1px solid #AE312E;
+}
+
+.btn-cancel:hover, .btn-cancel:active {
+	background-color: #AE312E !important;
+	border: 1px solid #AE312E;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.z-caption {
+	font-size: @fontSizeXLarge;
+}
+
+.z-panel-header {
+	font-size: @fontSizeXLarge;
+}
+
+
+@import "_login.less";
+
+@import "_desktop.less";
+
+@import "_application-menu.less";
+
+@import "_gadget.less";
+
+@import "_toolbar.less";
+
+@import "_button.less";
+
+@import "_adwindow.less";
+			
+@import "_grid.less";
+
+@import "_input-element.less";
+
+@import "_tree.less"; 
+
+@import "_field-editor.less";
+
+@import "_group.less";
+
+@import "_tab.less";
+
+@import "_menu-tree.less";
+
+@import "_info-window.less";
+
+@import "_window.less";
+
+@import "_form.less";
+
+@import "_toolbar-popup.less";	
+
+@import "_setup-wizard.less";
+
+@import "_about.less";
+
+@import "_tab-editor.less";
+
+@import "_find-window.less";
+
+@import "_help-window.less";
+
+@import "_borderlayout.less";
+
+@import "_parameter-process.less";
+
+@import "_window-size.less";
+
+@import "_font-icons.less";
+
+@import "_calendar.less";

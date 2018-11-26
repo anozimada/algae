@@ -1,0 +1,286 @@
+Atlantic 8.6.1
+* Features:
+
+* Bugs:
+  ZK-4114: orgnode label missing font styles
+  ZK-4116: Spinner/Timebox button active style not working
+  ZK-4048: chosenbox doesn't have consistent vertical align with other input components
+  ZK-4102: Slider flex sizing does not update the default 200px
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.6.0.1
+Nov 20, 2018
+* Features:
+
+* Bugs:
+
+* Upgrade Notes:
+  Same as 8.6.0 (Version alignment)
+
+  --------
+
+Atlantic 8.6.0
+Nov 7, 2018
+* Features:
+  ZK-3958: Checkbox new molds (switch, toggle)
+  ZK-3138: Data loading indicator for ROD
+  ZK-3963: Organigram component
+  ZK-3962: A new component that can select a range of image
+  ZK-3954: GoldenLayout component
+  ZK-3959: A new component for signing a signature
+  ZK-4094: camera should provide default recording status indicator
+
+* Bugs:
+  ZK-4000: Failed to drag and drop to a grid with firefox under atlantic theme
+  ZK-4095: Add a false positive check threshold on the barcode scanner
+  ZK-4112: Listbox ROD is empty when scroll down
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.5.2.1
+Aug 28, 2018
+* Features:
+
+* Bugs:
+  ZK-4001: new feature title on collapse borderlayout region missing style in some themes
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.5.2
+Jul 31, 2018
+* Features:
+  ZK-3529: Add title label to collapsed borderlayout region if title is set 
+
+* Bugs:
+  ZK-3908: vertical toolbar has sometimes <br> between items
+  ZK-3864: frozen overlap with position: relative/absolute
+  ZK-3852: chosenbox supports inplace edit
+  ZK-4001: new feature title on collapse borderlayout region missing style in some themes
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.5.1.2
+Apr 10, 2018
+* Features:
+
+* Bugs:
+
+* Upgrade Notes:
+  Same as 8.5.1 (Version alignment)
+
+  --------
+Atlantic 8.5.1.1
+Mar 20, 2018
+* Features:
+
+* Bugs:
+
+* Upgrade Notes:
+  Same as 8.5.1 (Version alignment)
+
+  --------
+Atlantic 8.5.1
+Mar 6, 2018
+* Features:
+  ZK-3827: Combobox empty search message
+
+* Bugs:
+  ZK-3785: cleanup unused (6.5) images from themes
+  ZK-3579: combobutton not using its defined/available width
+
+* Upgrade Notes:
+
+  --------
+Atlantic 8.5.0
+Oct 31, 2017
+* Features:
+  ZK-3336: tbeditor version update
+  ZK-3683: Add a new Splitlayout component
+
+* Bugs:
+  ZK-3263: Scroll position jumps up when clicking on scrollbar
+  ZK-3773: Message box button styles in "classic" themes
+  ZK-3772: splitlayout shows incorrect cursor for horizontal splitter
+  ZK-3783: panel/window close button markup/style inconsistent
+
+* Upgrade Notes:
+  + The version number is aligned with ZK Framework.
+
+  --------
+Atlantic 1.1.6
+Jan 11, 2017
+* Features:
+
+* Bugs:
+  ZK-3501: slow hover style in bigger listboxes (IE11)
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.1.5
+Oct 18, 2016
+* Features:
+  ZK-3234: Add a disable attribute to paging component
+  ZK-3060: Add a way to disabled paging in mold="paging" for grid
+
+* Bugs:
+  ZK-3221: Dragging element background can cover the whole text
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.1.4
+May 26, 2016
+* Features:
+
+* Bugs:
+  ZK-3137: an icon in a menupopup is not well aligned horizontally
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.1.3
+Jan 19, 2016
+* Features:
+
+* Bugs:
+  ZK-3040: icon disappears in IE8 on mouse hover
+  ZK-3041: Creatable chosenbox should be able to create new tag when typing subword of existing options
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.1.2
+Nov 12, 2015
+* Features:
+  ZK-2931: Atlantic theme @import google fonts
+
+* Bugs:
+  ZK-2887: datebox calendar control mostly hidden on ipad
+  
+* Upgrade Notes:
+
+  --------
+Atlantic 1.1.1
+Oct 6 2015
+* Features:
+
+* Bugs:
+  ZK-2783: empty comboitem renders without height
+
+* Upgrade Notes:
+
+ --------
+Atlantic 1.1.0
+May 27 2015
+* Features:
+ ZK-2707: Add a timepicker component
+* Bugs:
+ ZK-2693: HTTPS/SSL errors due to fonts.googleapis.com import
+ ZK-2630: Window caption didn't align with close icon in Firefox
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.8
+* Features:
+
+* Bugs:
+  ZK-4010: invisible listheaders are still visible in IE
+  ZK-4011: invisible columns are still visible in IE
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.7
+December 16, 2015
+* Features:
+  ZK-2931: Atlantic theme @import google fonts
+
+* Bugs:
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.6
+* Features:
+August 11 2015
+* Bugs:
+ ZK-2693: HTTPS/SSL errors due to fonts.googleapis.com import
+ ZK-2630: Window caption didn't align with close icon in Firefox
+ ZK-2783: empty comboitem renders without height
+ ZK-2802: toolbarbutton does not support big image icon
+ ZK-2628: Combo item does not display icon
+ 
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.5
+Mar 24 2015
+* Features:
+  
+* Bugs:
+  ZK-2626: treerow height for autopaging is not consistency with default mold
+  ZK-2648: Icons are not centered vertically inside paging control
+
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.4.1
+Mar 13 2015
+* Features:
+  
+* Bugs:
+  #13: zk atlantic theme missing contents in norm.css.dsp
+* Upgrade Notes:
+
+  --------
+Atlantic 1.0.4
+Dec 9 2014
+* Features:
+  * Support ZK 7.0.4
+  
+* Bugs:
+  ZK-2488: Caption component with label renders incorrectly
+* Upgrade Notes:
+
+	--------
+Atlantic 1.0.3
+Oct 15 2014
+* Features:
+  * Support ZK 7.0.3.1
+  
+* Bugs:
+* Upgrade Notes:
+
+	--------
+Atlantic 1.0.2
+Sep 4 2014
+* Features:
+  * Support ZK 7.0.3
+  
+* Bugs:
+* Upgrade Notes:
+
+	--------
+Atlantic 1.0.1
+Mar 12 2014
+* Features:
+  * Support ZK 7.0.1
+* Bugs:
+  * ALT-6: Several issue on iPad
+  * Fix Notification icon position
+* Upgrade Notes:
+
+	--------
+Atlantic 1.0.0
+Nov 26 2013
+* Features:
+  * Support ZK 7.0.0
+
+* Bugs:
+* Upgrade Notes:

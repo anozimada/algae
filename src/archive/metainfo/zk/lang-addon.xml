@@ -1,0 +1,10 @@
+<language-addon>
+	<addon-name>algae</addon-name>
+	<depends>zul</depends>
+	<language-name>xul/html</language-name>
+
+	<version>
+		<version-class>org.zkoss.theme.algae.Version</version-class>
+		<version-uid>8.6.1</version-uid>
+	</version>
+</language-addon>

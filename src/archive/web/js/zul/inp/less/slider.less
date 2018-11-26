@@ -1,0 +1,106 @@
+@import "~./zul/less/_header.less";
+
+.z-slider {
+	background-image: none;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+
+	&-center {
+		cursor: pointer;
+	}
+
+	&-button {
+		.size(@iconWidth, @iconHeight);
+		background: @sliderButtonBackground;
+		position: relative;
+		cursor: pointer;
+	}
+
+	&-knob-area {
+		stroke: @sliderAreaBackgroundColor;
+		data-angleOffset: 0;
+	}
+
+	&-knob-inner {
+		stroke: @sliderBackgroundColor;
+		data-angleOffset: 0;
+	}
+
+	&-knob-svg {
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+
+	&-input {
+		border: 1px solid @inputBorderColor;
+		background: @inputBackground;
+		-webkit-appearance: none;
+		text-align: center;
+		position: absolute;
+		line-height: 1.5;
+		.fontStyle(@contentFontFamily, @baseFontSize, bold, @inputColor);
+
+		&:focus {
+			border-color: @focusBorderColor;
+		}
+	}
+
+	&-horizontal {
+		height: @barHeight;
+		padding: (@barHeight - @baseHeight) / 2 0;
+		width: 200px;
+
+		.z-slider-center {
+			.size(100%, @baseHeight);
+			background: @sliderBackground;
+		}
+
+		.z-slider-button {
+			top: (@baseHeight - @iconHeight) / 2;
+		}
+	}
+
+	&-vertical {
+		width: @barWidth;
+		padding: 0 (@barWidth - @baseWidth) / 2;
+		height: 200px;
+
+		.z-slider-center {
+			.size(@baseWidth, 100%);
+			background: @sliderBackground;
+		}
+
+		.z-slider-button {
+			left: (@baseWidth - @iconWidth) / 2;
+		}
+	}
+
+	&-sphere {
+		.z-slider-vertical .z-slider-button {
+			bottom: 0;			
+		}
+	}
+
+	&-sphere,
+	&-scale {
+		.z-slider-button {
+			.borderRadius(@iconHeight / 2);
+		}
+	}
+
+	&-scale {
+		.encodeThemeURL(background, '~./zul/img/slider/ticks.gif', no-repeat);
+	}
+
+	&-popup {
+		.fontStyle(@contentFontFamily, @baseFontSize, @baseFontWeight, @baseTextColor);
+		border: 1px solid @baseBorderColor;
+		padding: @paddingSmall;
+		background: @baseBackground;
+		position: absolute;
+		z-index: 60000;
+	}
+}

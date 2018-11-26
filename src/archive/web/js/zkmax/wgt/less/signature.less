@@ -1,0 +1,69 @@
+@import "~./zul/less/_header.less";
+
+.z-signature {
+	position: relative;
+	border: 1px solid @signatureBorderColor;
+
+	&-toolbar {
+		position: absolute;
+		bottom: 8px;
+		right: 12px;
+
+		&-hide {
+			display: none;
+		}
+	}
+
+	&-tool-button {
+		.fontStyle(@contentFontFamily, @baseFontSize, @fontWeightSemiBold, @buttonColor);
+		min-height: @buttonHeight;
+		border: 1px solid @buttonBorderColor;
+		padding: @paddingSmall - 1 @paddingLarge - 1;
+		line-height: @buttonHeight - @paddingSmall * 2;
+		background: @buttonBackground;
+		cursor: pointer;
+		white-space: nowrap;
+		margin-right: 4px;
+
+		&:hover {
+			color: @hoverColor;
+			border-color: @hoverBorderColor;
+			background: @hoverBackground;
+			.boxShadow(inset 0 -1px 0 @hoverShadowColor);
+		}
+		&:focus {
+			color: @focusColor;
+			border-color: @focusBorderColor;
+			background: @focusBackground;
+			.boxShadow(none);
+		}
+		&:active {
+			color: @activeColor;
+			border-color: @activeBorderColor;
+			background: @activeBackground;
+			.boxShadow(inset 0px 1px 0 @activeShadowColor);
+		}
+		&-icon {
+			.baseIconFont();
+			font-size: 18px;
+			vertical-align: bottom;
+		}
+		&-undo:before {
+			content: "\f112";
+		}
+		&-save:before {
+			content: "\f0c7";
+		}
+		&-clear:before {
+			content: "\f00d";
+		}
+		&-label:not(:empty) {
+			margin-left: 4px;
+		}
+	}
+
+	&-canvas {
+		width: 100%;
+		height: 100%;
+	}
+}
